@@ -7,11 +7,21 @@ package com.zipcodewilmington.person;
 public class Person {
     private String name;
     private int age;
+//    private int height;
+//    private String nation;
+//    private String gender;
+//    private String hairColor;
+//    private int yearWorked;
 
     //constructor
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+//        this.height = height;
+//        this.nation = nation;
+//        private String gender;
+//        private String hairColor;
+//       private int yearWorked;
 
     }
 
