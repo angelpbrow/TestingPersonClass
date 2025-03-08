@@ -12,6 +12,11 @@ public class Person {
 //    private String gender;
 //    private String hairColor;
 //    private int yearWorked;
+public static void main(String[] args) {
+
+//        this.name = "";
+//        this.age = 0;
+  }
 
     //constructor
     public Person(String name, int age) {
@@ -26,6 +31,8 @@ public class Person {
 
 
     }
+
+
 
     public Person(int age) {
         this.age = age;
