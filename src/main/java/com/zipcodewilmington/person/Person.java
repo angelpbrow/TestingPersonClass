@@ -34,9 +34,9 @@ public class Person {
     }
 //No idea here
     public Person() {
-        Person person = new Person("Leon",5);
-        person.getName();
-        person.getAge();
+        this.name = "Leon";
+        this.age = 5;
+
     }
 
 
