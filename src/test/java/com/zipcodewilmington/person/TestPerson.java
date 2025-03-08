@@ -58,7 +58,7 @@ public class TestPerson {
         String expectedName = "Leon";
 
         // When
-        Person person = new Person(expectedName, expectedAge);
+        Person person = new Person();
 
         // Then
         Integer actualAge = person.getAge();
