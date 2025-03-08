@@ -22,10 +22,11 @@ public class Person {
     public Person(String name) {
         this.name = name;
     }
-
+//No idea here
     public Person() {
         Person person = new Person("Leon",5);
-
+        person.getName();
+        person.getAge();
     }
 
 
