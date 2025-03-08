@@ -17,11 +17,13 @@ public class Person {
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+
 //        this.height = height;
 //        this.nation = nation;
 //        private String gender;
 //        private String hairColor;
 //       private int yearWorked;
+
 
     }
 
