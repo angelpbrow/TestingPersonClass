@@ -7,10 +7,19 @@ public class Person {
     private String name;
     private int age;
 
-//    public Person() {
-//        this.name = "";
-//        this.age = 0;
+
+
+    public static void main (String[] args) {
+
+        Person person = new Person();
+
+    }
+
+//    public Person(String name, int age) {
+//        this.name = name;
+//        this.age = age;
 //    }
+
 
     public Person(int age) {
         this.age = age;
@@ -40,6 +49,9 @@ public class Person {
     public Integer getAge() {
         return age;
     }
+
+
+
 }
 
 
