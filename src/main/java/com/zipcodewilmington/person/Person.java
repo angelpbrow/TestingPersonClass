@@ -1,5 +1,6 @@
 package com.zipcodewilmington.person;
 
+
 /**
  * If you did ObjectsOne lab, you might recognize this code?
  */
@@ -12,11 +13,16 @@ public class Person {
 //    private String gender;
 //    private String hairColor;
 //    private int yearWorked;
-public static void main(String[] args) {
 
-//        this.name = "";
-//        this.age = 0;
-  }
+
+
+    public static void main(String[] args) {
+
+        Person person = new Person();
+
+
+    }
+
 
     //constructor
     public Person(String name, int age) {
@@ -33,7 +39,6 @@ public static void main(String[] args) {
     }
 
 
-
     public Person(int age) {
         this.age = age;
     }
@@ -41,12 +46,15 @@ public static void main(String[] args) {
     public Person(String name) {
         this.name = name;
     }
-//No idea here
+
+    //No idea here
     public Person() {
         this.name = "Leon";
         this.age = 5;
 
     }
+
+
 
 
     public void setName(String name) {
@@ -67,3 +75,4 @@ public static void main(String[] args) {
         return age;
     }
 }
+
